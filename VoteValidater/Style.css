@@ -1,0 +1,22 @@
+
+    body{
+        background-color: antiquewhite;
+        text-align: center;
+        color: chocolate;
+    }
+    div{
+        background-color: aqua;
+        align-items: center;
+        margin-top:100px;
+        margin-bottom: 200px;
+        margin-left: 600px;
+        width: 250px;
+        height: 200px;
+        padding:40px;
+    }
+    button{
+        background-color:#04AA6D;
+        border: none;
+        padding: 10px;
+
+    }

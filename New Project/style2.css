@@ -1,0 +1,37 @@
+body{
+    background-image: url(image1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    font-family: cursive;
+    font-size: 15px;
+     
+    text-shadow: 10PX 10PX Solid red;
+}
+
+div{
+    background-color:lightblue;
+    border: double;
+    border-radius: 4px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 600px;
+    width: 250px;
+    height: 200px;
+    padding: 40px;
+}
+button{
+    background-color: white;
+    border: double;
+    padding: 10px;
+  
+    margin: 2PX 2PX;
+    cursor: pointer;
+
+}
+input{
+    width: 100px;
+    padding: 10px;
+    border: double;
+}

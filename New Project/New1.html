@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Predictor</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div>
+    <h1>Result Predictor</h1>
+    <input type="text" name="" id="name" placeholder="Enter Your Name">
+    
+    <button type="submit" id="submit" onclick="result()">CHECK</button>
+    <p id="result"></p>
+    </div>
+
+    <script>
+        function result(){
+            const name=document.getElementById("name");
+            
+            var marks=Math.random()*100;
+            var result=document.getElementById("result");
+
+            
+
+            if(marks<35){
+                result.innerHTML-"you are result is F";
+            }else if(marks==35){
+                result.innerHTML="you are  Just Pass";
+            }else if((marks>35 )&&(marks<=50)){
+                result.innerHTML="You are Second Class";
+            }else if((marks>50)&&(marks<=75)){
+                result.innerHTML="you are First Class";
+            }else if((marks>75)&&(marks<=80)){
+                result.innerHTML="you are Distingtion";
+            }else if((marks>80)&&(marks<100)){
+                result.innerHTML="You are a Top";
+            }
+
+        }
+    </script>
+</body>
+</html>
